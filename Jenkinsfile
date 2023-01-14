@@ -30,7 +30,7 @@ node {
    
      stage('Trigger pipeline2') {
                 echo "triggering pipeline2"
-                build job: 'pipelinne2', parameters: [string(name: 'DOCKERTAG', value: env.BUILD_NUMBER)]
+                build job: 'pipeline2', parameters: [string(name: 'DOCKERTAG', value: env.BUILD_NUMBER)]
         }
      
 }
