@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("vishal7500/image")
+       app = docker.build("vishal7500/python")
     }
 
     // stage('Test image') {
